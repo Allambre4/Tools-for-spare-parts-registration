@@ -44,7 +44,8 @@ En total hay 5 dentro de las subcarpetas carpeta
 
 ```Python
 carpeta_seleccionada = r"\\SERVIDOR\CARPETA\COTIZACIONES"
-datos = obtener_archivos_por_carpeta(carpeta_seleccionada)```
+datos = obtener_archivos_por_carpeta(carpeta_seleccionada)
+```
 
 ### Dependencias
 Python 3.x
