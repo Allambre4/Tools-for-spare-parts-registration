@@ -12,10 +12,13 @@ Uso
 ### Configuración de la ruta:
 
 Modifica la variable carpeta_seleccionada en el script para apuntar a la carpeta raíz que deseas explorar.
+
 Ejemplo:
+
 Python
-carpeta_seleccionada = r"RUTA\A\TU\CARPETA"
-###Ejecución:
+''' carpeta_seleccionada = r"RUTA\A\TU\CARPETA" '''
+
+### Ejecución:
 
 Ejecuta el script desde consola o desde tu entorno Python.
 El script imprimirá la estructura de carpetas y archivos, así como el total de archivos detectados.
