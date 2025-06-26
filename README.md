@@ -9,14 +9,22 @@ Cuenta e imprime el total de archivos encontrados.
 Diferencia entre archivos y carpetas mediante emojis (📂 para carpetas, 📄 para archivos) para mejorar la legibilidad.
 Permite modificar fácilmente la ruta base para adaptarla a diferentes ubicaciones en red o locales.
 Uso
+
+> Nota: Usas **3 tildes invertidas** (```) antes y después del código, **no comillas simples**.
+
+---
+
+## 🔎 Resultado renderizado en GitHub se verá así:
+
 ### Configuración de la ruta:
 
-Modifica la variable carpeta_seleccionada en el script para apuntar a la carpeta raíz que deseas explorar.
+Modifica la variable `carpeta_seleccionada` en el script para apuntar a la carpeta raíz que deseas explorar.
 
 Ejemplo:
 
-Python
-''' carpeta_seleccionada = r"RUTA\A\TU\CARPETA" '''
+```python
+carpeta_seleccionada = r"RUTA\A\TU\CARPETA"
+
 
 ### Ejecución:
 
