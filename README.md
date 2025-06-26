@@ -10,11 +10,6 @@ Diferencia entre archivos y carpetas mediante emojis (📂 para carpetas, 📄 p
 Permite modificar fácilmente la ruta base para adaptarla a diferentes ubicaciones en red o locales.
 Uso
 
-> Nota: Usas **3 tildes invertidas** (```) antes y después del código, **no comillas simples**.
-
----
-
-## 🔎 Resultado renderizado en GitHub se verá así:
 
 ### Configuración de la ruta:
 
@@ -33,7 +28,7 @@ Ejecuta el script desde consola o desde tu entorno Python.
 El script imprimirá la estructura de carpetas y archivos, así como el total de archivos detectados.
 Salida esperada:
 
-Code
+```Code
 📂 Carpeta1
   📄 archivo_directo.txt
   📂 SubcarpetaA
@@ -43,15 +38,16 @@ Code
   📂 SubcarpetaB
     📄 archivoX.docx
 En total hay 5 dentro de las subcarpetas carpeta
+```
 
 ### Ejemplo de uso
 
-'''Python
+```Python
 carpeta_seleccionada = r"\\SERVIDOR\CARPETA\COTIZACIONES"
-datos = obtener_archivos_por_carpeta(carpeta_seleccionada)'''
+datos = obtener_archivos_por_carpeta(carpeta_seleccionada)```
 
 ### Dependencias
 Python 3.x
 Módulo estándar os (no requiere instalación adicional)
-###Ubicación
+### Ubicación
 src/TestRevisarCotizaciones.py
