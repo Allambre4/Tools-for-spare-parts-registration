@@ -24,6 +24,7 @@ Ejemplo:
 
 ```python
 carpeta_seleccionada = r"RUTA\A\TU\CARPETA"
+```
 
 
 ### Ejecución:
